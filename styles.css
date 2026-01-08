@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
 }
 
 .header {
@@ -42,10 +43,25 @@ body {
     background-color: #000000;
     padding: 20px;
 }
+.side h2 {
+    color: white;
+}
+.side p {
+    color: #E34234
+}
 .main {
     flex: 70%;
     background-color: #222222;
     padding: 20px;
+}
+.main h1 {
+    color: white;
+}
+.main h2 {
+    color: #E34234;
+}
+.main p {
+    color: #E34234
 }
 @media screen and (max-width: 700px) {
     .row {
@@ -63,4 +79,21 @@ body {
     text-align: center;
     background: #000000;
     color: #E34234
+}
+.contentmain {
+    background-color: #222222;
+    padding: 20px;
+}
+.contentmain h1 {
+    text-align: center;
+    color: white;
+}
+.contentmain h2 {
+    color: #E34234;
+}
+.contentmain p {
+    color: #E34234;
+}
+.contentmain a {
+    color: red;
 }

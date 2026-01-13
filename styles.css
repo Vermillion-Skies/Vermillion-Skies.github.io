@@ -1,12 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #000000;
+    background-color: black;
 }
 
 .header {
     padding: 80px;
     text-align: center;
-    background: #000000;
+    background-image: linear-gradient(to top, black, #E34234);
     color: #E34234;
 }
 .header h1 {
@@ -14,7 +14,7 @@ body {
 }
 .navbar {
     overflow: hidden;
-    background-color: #444444;
+    background-image: linear-gradient(to right, #444444, #000000);
 }
 .navbar a {
     float: left;
@@ -28,7 +28,7 @@ body {
     float: right;
 }
 .navbar a:hover {
-    background-color: #767676;
+    background-image: linear-gradient(to right, #767676, white);
     color: #E34234
 }
 * {
@@ -40,7 +40,7 @@ body {
 }
 .side {
     flex: 30%;
-    background-color: #000000;
+    background-image: linear-gradient(to right, #000000, #222222);
     padding: 20px;
 }
 .side h2 {
@@ -54,7 +54,7 @@ body {
 }
 .main {
     flex: 70%;
-    background-color: #222222;
+    background-image: linear-gradient(to left, #000000, #222222);
     padding: 20px;
 }
 .main h1 {
@@ -80,11 +80,11 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #000000;
+    background-image: linear-gradient(to top, #E34234, #000000);
     color: #E34234
 }
 .contentmain {
-    background-color: #222222;
+    background-image: linear-gradient(to right, #222222, #000000);
     padding: 20px;
 }
 .contentmain h1 {
